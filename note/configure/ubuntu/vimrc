@@ -1,0 +1,18 @@
+# ~/.vimrc
+
+syntax on
+set number
+set autoindent
+set smartindent
+set cindent
+set shiftwidth=4
+set ai!
+set tabstop=4
+set showmatch
+set ruler
+filetype on
+inoremap ' ''<ESC>i
+inoremap " ""<ESC>i
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap { {<CR>}<ESC>O
