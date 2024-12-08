@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BilibiliCard</title>
+    <link href="../static/css/bilibili_card_style.css" rel="stylesheet" >
+    <!-- 邮箱图标--> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+</head>
+
+<!-- [struct of show]
+user-card
+    photo
+    target
+    info
+        username
+        mail
+        signature
+        button
+-->
+
+<body>
+    <div class="user-card">
+        <div class="user-card-photo">
+            <a target="_blank" href="https://space.bilibili.com/1995439393?spm_id_from=333.788.0.0"><img src="../static/images/tiger.jpg"></a>
+        </div>
+        <div class="user-card-target">
+            <div class="user-card-target-background">
+                <a target="_blank" href="https://space.bilibili.com/1995439393?spm_id_from=333.788.0.0"><img src="../static/images/tiger.jpg"></a>
+            </div>
+            <div class="user-card-target-body">
+
+            </div>
+            
+        </div>
+        <div class="user-card-info">
+            <div class="user-card-info-username">
+                <a target="_blank" href="https://space.bilibili.com/1995439393?spm_id_from=333.788.0.0">jiayuuuuuan_xu</a>
+            </div> 
+            <div class="user-card-info-mail">
+                <i class="glyphicon glyphicon-envelope">发消息</i>
+            </div>
+            <div class="user-card-info-signature">
+                I think I've seen this film before, 
+                And I didn't like the ending.
+            </div>
+            <div class="user-card-info-button">
+                <form>
+                    <button type="button" id="follow">＋ 关注 5</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

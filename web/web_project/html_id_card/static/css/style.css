@@ -1,0 +1,57 @@
+.container {
+    width: 80%;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.col {
+    width: 33.33%;
+    height: 100px;
+    float: left;
+    font-size: 30px;
+    background-color: lightcoral;
+    /* 水平居中 */
+    text-align: center;
+    /* 垂直居中：让文本的高度等于块的高度 */
+    line-height: 100px;
+    /* 表格 */
+    border: 1px solid blueviolet;
+    box-sizing: border-box;
+}
+
+/* @media(min-width: 768px) {
+    .container {
+        background-color: blue;
+    }
+    .lg1 {
+        width: 100%;
+    }
+}
+
+@media(min-width: 912px) {
+    .container {
+        background-color: yellow;
+    }
+    .md1 {
+        width: 50%;
+    }
+    .md2 {
+        width: 100%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .container {
+        background-color: green;
+    }
+    .sm1 {
+        width: 33.33%;    
+    }
+    .sm2 {
+        width: 33.33%; 
+    }
+
+    .sm3 {
+        width: 33.33%; 
+    }
+} */

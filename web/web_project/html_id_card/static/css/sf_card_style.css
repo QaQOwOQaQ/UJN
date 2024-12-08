@@ -1,0 +1,86 @@
+.user-card {
+    width: 200px;
+    height: 60px;
+    background-color: #D9EAF7;
+    font-family: -apple-system, BlinkMacSystemFont;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
+.user-card-head {
+    width: 200px;
+    height: 16px;
+    color: #636B74;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+/* 事实上，user-card-body 默认应该就是200px，因此下面可以注释掉 */
+.user-card-body { 
+    width: 200px;
+} 
+
+.user-card-body-photo {
+    float: left;
+}
+
+.user-card-body-photo img {
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.user-card-body-info {
+    float: left;
+    margin-left: 8px;
+}
+
+.user-card-body-info-username {
+    color: #1B75D0;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.user-card-body-info-username > a {
+    color: #1B75D0;
+    text-decoration: none;
+    
+}
+
+.user-card-body-info-reputation {
+    color: #636B74;
+    font-size: 12px;
+}
+
+.user-card-body-info-reputation-score {
+    font-weight: bold;
+    float: left;
+    margin-right: 2px;;
+}
+
+.user-card-body-info-reputation-item {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 50%; /* 圆形 */
+    margin: 0px 2px 0px 3px;
+    /* 向上调整一下 */
+    position: relative;
+    top: -2px;
+}
+
+
+/* 注意下标是 2,3,4 而不是 1,2,3
+因为 nth-child() 是根据父元素计算的，而不是第几个当前class */
+.user-card-body-info-reputation-item:nth-child(2) {
+    background-color: #FFCC01;
+}
+
+.user-card-body-info-reputation-item:nth-child(3) {
+    background-color: #B4B8BC;
+}
+
+.user-card-body-info-reputation-item:nth-child(4) {
+    background-color: #D1A684;
+}
