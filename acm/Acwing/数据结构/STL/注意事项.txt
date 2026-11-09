@@ -1,0 +1,19 @@
+1.size（）和empty（）是所有容器共有的，O（1）
+2.清空队列 
+queue<int> q;
+q = queue<int>()
+3.优先队列默认的是一个大根堆（降序）
+在大根堆实现小根堆效果，让所有元素加一个负号就行了
+-x从大到小排序，相当于x从小到大排序
+4.deque的效率很低，比一般的数组慢好几倍，很少用
+5.pair可以看作一个包含两个变量个结构体，并且自带排序函数
+6.set所有操作O（logn）
+7.map的insert插入重复key是忽略而不是替换
+8.map和set对第一关键词升序排序
+9.map在插入查找数据的时候可以像数组一样
+例如：map<string, int> m;
+m["xjy"] = 1;
+但要注意时间复杂度为O (n)
+10.map和set除了size（），empty（），count（），别的时间复杂度都是O（log n）的，包括迭代器++，--
+11.unordered_set 和，unordered_map，unordered_multimap，unordered_multiset
+增删改查都是O（1）的，但不支持upper_bound（）lower_bound，迭代器++，--等排序操作。
